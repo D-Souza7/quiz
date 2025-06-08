@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Quiz SCC</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="container">
+ <div class="cabeçalho">
+   <h1>Gênio Quiz SCC</h1>
+   <!-- Mensagem dinâmica com nome e acertos -->
+   <span id="userScoreMessage" class="user-score-message"></span>
+     <div class="formulario">
+       <form id="Form">
+         <input type="text" id="userName" placeholder="Digite seu nome" required>
+
+         <select name="materia" id="materia">
+           <option value="">Selecione a Disciplina</option>
+           <option value="filosofia">Filosofia</option>
+           <option value="matematica">Matemática</option>
+         </select>
+         <select name="dificuldade" id="dificuldade">
+           <option value="">Selecione a Dificuldade</option>
+           <option value="facil">Fácil</option>
+           <option value="medio">Médio</option>
+           <option value="dificil">Difícil</option>
+         </select>
+         <select name="serie" id="serie">
+           <option value="">Selecione a Série</option>
+           <option value="1ano">1º Ano</option>
+           <option value="2ano">2º Ano</option>
+           <option value="3ano">3º Ano</option>
+         </select>
+         <!-- O ID 'salvarAlteracoes' será reutilizado para 'Jogar Novamente' -->
+         <button type="submit" id="salvarAlteracoes">Gerar Perguntas</button>
+       </form>
+       <button id="verRespostasEnviadas" style="display: none;">Ver Respostas Enviadas</button>
+     </div>
+ </div>
+
+ <!-- Área para mensagens de feedback -->
+ <div id="message-box" class="message-box" style="display: none;"></div>
+ <!-- Novo: Mensagem de carregamento -->
+ <div id="loadingMessage" class="loading-message" style="display: none;">
+    <div class="spinner"></div> Carregando questões...
+ </div>
+
+ <!-- Questões serão inseridas aqui pelo JavaScript -->
+ <div id="questoes-container"></div>
+
+ <button class="botao" id="botaoEnviar" style="display: none;">Enviar Respostas</button>
+
+</div>
+
+<div id="respostasModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Respostas Enviadas</h2>
+            <button class="close-button" id="closeModalButton">&times;</button>
+        </div>
+        <div class="modal-body" id="respostasModalBody">
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

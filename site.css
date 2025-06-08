@@ -1,0 +1,1251 @@
+/* Importação de fonte moderna (Inter) para melhor legibilidade */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Reset básico e box-sizing para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5; /* Fundo suave, quase branco */
+    font-family: 'Inter', sans-serif; /* Fonte Inter para modernidade e clareza */
+    color: #333; /* Cor de texto padrão */
+    line-height: 1.6; /* Melhorar legibilidade de blocos de texto */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinhar ao topo para evitar sobrecarga em telas pequenas */
+    min-height: 100vh; /* Garante que o corpo ocupa toda a altura da viewport */
+    padding: 20px; /* Adiciona padding geral para não colar nas bordas da tela */
+}
+
+/* Container principal do quiz */
+.container {
+    width: 100%; /* Ocupa 100% da largura disponível */
+    max-width: 680px; /* Ajuste para tornar a parte principal mais compacta */
+    background-color: #ffffff; /* Fundo branco puro */
+    padding: 25px; /* Padding interno ligeiramente reduzido */
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada e suave */
+    margin: 20px 0; /* Margem superior e inferior, 0 nas laterais para centralizar */
+}
+
+/* Cabeçalho do quiz */
+.cabeçalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabeçalho h1 {
+    color: #007bff; /* Azul primário */
+    margin-bottom: 10px;
+    font-size: 2.2rem; /* Tamanho maior para o título */
+    font-weight: 700; /* Mais peso */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05); /* Sombra suave no texto */
+}
+
+/* Estilo para a mensagem de pontuação do usuário no cabeçalho */
+.user-score-message {
+    display: block; /* Garante que ocupe sua própria linha */
+    margin-top: -15px; /* Ajusta a posição para não ficar muito longe do h1 */
+    margin-bottom: 20px; /* Espaçamento abaixo da mensagem */
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #28a745; /* Verde para destacar a pontuação */
+    background-color: #eaf8ed;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: 1px solid #d4edda;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+
+/* Formulário de seleção de filtros */
+.formulario {
+    display: flex;
+    flex-wrap: wrap; /* Elementos quebram a linha em telas menores */
+    gap: 15px; /* Espaçamento maior entre os elementos */
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.formulario select,
+.formulario button,
+.formulario input[type="text"] {
+    padding: 10px 18px; /* Padding reduzido para os elementos do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho de fonte consistente */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transições suaves para interações */
+    flex-grow: 1; /* Permite que os elementos cresçam e ocupem espaço */
+    max-width: 250px; /* Limite de largura para selects/botões */
+    border: 1px solid #ced4da; /* Borda suave */
+    background-color: #fdfdff; /* Fundo levemente off-white */
+    color: #495057;
+}
+
+/* Novo: Estilo para input de texto quando em erro */
+.formulario input[type="text"].input-error {
+    border-color: #dc3545; /* Borda vermelha */
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.2); /* Sombra vermelha suave */
+}
+
+/* Novo: Estilo de foco aprimorado para todos os inputs e selects */
+.formulario select:focus,
+.formulario button:focus,
+.formulario input[type="text"]:focus {
+    outline: none; /* Remove o outline padrão */
+    border-color: #007bff; /* Borda azul primária */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Sombra azul para foco */
+}
+
+
+.formulario select {
+    appearance: none; /* Remove estilo padrão do navegador para selects */
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20d%3D%22M9.293%2012.95l.707.707L15.657%208l-1.414-1.414L10%2010.828%205.757%206.586%204.343%208z%22%20fill%3D%22%236c757d%22%2F%3E%3C%2Fsvg%3E'); /* Ícone de seta personalizado */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1.2em;
+}
+
+.formulario button {
+    background-color: #007bff; /* Azul primário */
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2); /* Sombra leve com cor do botão */
+}
+
+.formulario button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Sombra mais intensa */
+    transform: translateY(-2px); /* Efeito de elevação sutil */
+}
+
+.formulario button:active { /* Novo: Efeito de "pressão" ao clicar */
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 123, 255, 0.2);
+}
+
+
+/* Estilo para as questões individuais */
+.questao {
+    background-color: #fdfdff; /* Fundo ligeiramente diferente para as questões */
+    padding: 18px; /* Padding ligeiramente reduzido */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Sombra suave para destacar */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transições para hover */
+    display: none; /* Oculta as questões inicialmente */
+}
+
+.questao:hover {
+    transform: translateY(-3px); /* Efeito de elevação sutil */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); /* Sombra mais acentuada */
+}
+
+.questao h3 {
+    color: #212529; /* Cor de texto mais escura para o título da questão */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.enunciado {
+    font-size: 1.05rem; /* Tamanho de fonte um pouco maior para o enunciado */
+    margin-bottom: 20px;
+    line-height: 1.7; /* Espaçamento de linha para legibilidade */
+    color: #495057;
+}
+
+/* Opções de resposta - OTIMIZAÇÃO */
+.opcoes label {
+    display: flex; /* Usar flexbox para alinhar rádio e texto */
+    align-items: flex-start; /* Alinha o início do texto com o rádio */
+    margin-bottom: 10px;
+    padding: 12px; /* Mais padding para um toque maior */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Sombra sutil para as opções */
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease; /* Adicionado transform */
+    color: #555;
+    position: relative;
+}
+
+.opcoes label:hover {
+    background-color: #eef7ff; /* Fundo azul claro suave no hover */
+    border-color: #a0cfff; /* Borda azul mais acentuada no hover */
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.1); /* Sombra com cor do botão */
+}
+
+.opcoes label:active { /* Novo: Efeito de "pressão" ao clicar nas opções */
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Estilo para a opção selecionada (antes do envio) */
+.opcoes input[type="radio"]:checked + label {
+    background-color: #e0f2ff; /* Fundo mais escuro para a opção selecionada */
+    border-color: #007bff; /* Borda primária */
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.25); /* Sombra mais forte para destacar */
+    color: #0056b3; /* Texto ligeiramente mais escuro */
+}
+
+
+.opcoes input[type="radio"] {
+    margin-right: 12px;
+    width: 1.25em;
+    height: 1.25em;
+    flex-shrink: 0;
+    accent-color: #007bff;
+    margin-top: 2px;
+}
+
+/* Estilos para feedback de correto/incorreto */
+.questao.correta {
+    border: 2px solid #28a745; /* Borda verde mais vibrante */
+    background-color: #eaf8ed; /* Fundo verde pastel */
+    box-shadow: 0 0 15px rgba(40, 167, 69, 0.2); /* Sombra verde sutil */
+}
+
+.questao.incorreta {
+    border: 2px solid #dc3545; /* Borda vermelha mais vibrante */
+    background-color: #fcebeb; /* Fundo vermelho pastel */
+    box-shadow: 0 0 15px rgba(220, 53, 69, 0.2); /* Sombra vermelha sutil */
+}
+
+/* Destaque para a resposta correta (verde forte) */
+.opcoes label.correta-destaque {
+    font-weight: 600; /* Semi-negrito */
+    color: #155724; /* Verde escuro */
+    background-color: #d4edda; /* Fundo verde mais forte */
+    border-color: #28a745;
+}
+
+/* Destaque para a resposta incorreta escolhida pelo usuário (vermelho forte) */
+.opcoes label.incorreta-destaque {
+    font-weight: 600;
+    color: #721c24; /* Vermelho escuro */
+    background-color: #f8d7da; /* Fundo vermelho mais forte */
+    border-color: #dc3545;
+    text-decoration: line-through; /* Riscar a resposta errada */
+}
+
+/* Botão de envio (Enviar Respostas) */
+.botao {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Mais padding */
+    background-color: #28a745; /* Verde de sucesso */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.15rem; /* Fonte ligeiramente maior */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    margin-top: 25px; /* Mais espaço acima */
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.2);
+}
+
+.botao:hover {
+    background-color: #218838; /* Verde mais escuro no hover */
+    box-shadow: 0 6px 15px rgba(40, 167, 69, 0.3);
+    transform: translateY(-2px);
+}
+
+.botao:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Caixa de mensagens (feedback) */
+.message-box {
+    padding: 15px 20px;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    /* Cores padrão definidas pelas classes JS */
+    border: 1px solid; /* A borda será colorida pela classe JS */
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: opacity 0.5s ease-out; /* Animação de fade */
+}
+
+.message-box.error {
+    background-color: #f8d7da; /* Vermelho claro para erros */
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.message-box.success {
+    background-color: #d4edda; /* Verde claro para sucesso */
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.message-box.warning { /* Novo: Estilo para mensagens de aviso */
+    background-color: #fff3cd; /* Amarelo claro para avisos */
+    color: #664d03;
+    border-color: #ffecb5;
+}
+
+
+/* Estilos do Modal para Respostas */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out; /* Animação de fade-in */
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    width: 95%; /* Ocupa mais largura em telas pequenas */
+    max-width: 800px; /* Largura máxima maior para o modal */
+    max-height: 90vh; /* Altura máxima para rolagem */
+    overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for muito longo */
+    position: relative;
+    transform: translateY(0);
+    animation: slideInFromTop 0.3s ease-out; /* Animação de slide-in */
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef; /* Borda mais suave */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #007bff;
+    font-size: 1.8rem; /* Título maior do modal */
+    font-weight: 700;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 2.5rem; /* Ícone de fechar maior */
+    line-height: 1;
+    cursor: pointer;
+    color: #6c757d; /* Cor mais suave para o 'X' */
+    transition: color 0.2s ease, transform 0.2s ease;
+    padding: 5px; /* Adiciona um pouco de padding para área de clique */
+}
+
+.close-button:hover {
+    color: #343a40; /* Cor mais escura no hover */
+    transform: rotate(90deg); /* Efeito de rotação no hover */
+}
+
+.modal-body {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.modal-body h4 {
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 1px dashed #e9ecef; /* Linha tracejada para separar submissões */
+    padding-bottom: 5px;
+}
+
+.modal-body p {
+    margin-bottom: 8px;
+    font-size: 0.95rem; /* Texto das respostas ligeiramente menor */
+}
+
+.modal-body .correct {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.modal-body .incorrect {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.modal-body .user-answer {
+    font-style: italic;
+    color: #6c757d; /* Cor suave para a resposta do usuário */
+}
+
+/* Linhas divisórias no modal */
+.modal-body hr {
+    border: 0;
+    border-top: 1px solid #f0f0f0; /* Divisor mais sutil */
+    margin: 15px 0;
+}
+
+/* Novo: Estilo para a mensagem de carregamento */
+.loading-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #007bff;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #e0f2ff;
+    border: 1px solid #b0d8f7;
+    box-shadow: 0 1px 4px rgba(0, 123, 255, 0.1);
+}
+
+/* Novo: Estilo para o spinner de carregamento */
+.spinner {
+    border: 4px solid rgba(0, 123, 255, 0.2);
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Ajustes responsivos */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .cabeçalho h1 {
+        font-size: 1.8rem;
+    }
+
+    .user-score-message {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .formulario {
+        flex-direction: column; /* Pilha selects e botões em telas muito pequenas */
+        align-items: stretch;
+    }
+
+    .formulario select,
+    .formulario button,
+    .formulario input[type="text"] {
+        max-width: 100%; /* Ocupa largura total */
+    }
+
+    .questao {
+        padding: 15px;
+    }
+
+    .questao h3 {
+        font-size: 1.1rem;
+    }
+
+    .enunciado {
+        font-size: 0.95rem;
+    }
+
+    .opcoes label {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .modal-content {
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    .modal-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .close-button {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,871 @@
+[
+  {
+    "timestamp": "2025-06-05T01:30:55.371Z",
+    "userName": "Débora",
+    "correctAnswers": 8,
+    "totalQuestions": 10,
+    "timeTaken": 73,
+    "questionsAttempted": [
+      {
+        "id": 26,
+        "enunciado": "O que é a ética?",
+        "opcaoUsuario": "O estudo dos valores morais e do comportamento humano.",
+        "respostaCorreta": "O estudo dos valores morais e do comportamento humano.",
+        "correto": true
+      },
+      {
+        "id": 7,
+        "enunciado": "Segundo a ética aristotélica, o que é a virtude?",
+        "opcaoUsuario": "A ausência de vícios.",
+        "respostaCorreta": "O meio-termo entre os extremos.",
+        "correto": false
+      },
+      {
+        "id": 1,
+        "enunciado": "O que significa a palavra 'filosofia'?",
+        "opcaoUsuario": "Amor ao saber.",
+        "respostaCorreta": "Amor ao saber.",
+        "correto": true
+      },
+      {
+        "id": 8,
+        "enunciado": "O que significa a frase 'Penso, logo existo', de Descartes?",
+        "opcaoUsuario": "O pensamento é a única prova da existência.",
+        "respostaCorreta": "O pensamento é a única prova da existência.",
+        "correto": true
+      },
+      {
+        "id": 13,
+        "enunciado": "O que é a alegoria da caverna, de Platão?",
+        "opcaoUsuario": "Uma explicação sobre a realidade e a ilusão.",
+        "respostaCorreta": "Uma explicação sobre a realidade e a ilusão.",
+        "correto": true
+      },
+      {
+        "id": 11,
+        "enunciado": "Qual filósofo é conhecido por sua teoria do contrato social?",
+        "opcaoUsuario": "Hobbes.",
+        "respostaCorreta": "Hobbes.",
+        "correto": true
+      },
+      {
+        "id": 15,
+        "enunciado": "O que o existencialismo enfatiza?",
+        "opcaoUsuario": "A liberdade e a responsabilidade individual.",
+        "respostaCorreta": "A liberdade e a responsabilidade individual.",
+        "correto": true
+      },
+      {
+        "id": 16,
+        "enunciado": "Quem escreveu 'O contrato social'?",
+        "opcaoUsuario": "Locke.",
+        "respostaCorreta": "Rousseau.",
+        "correto": false
+      },
+      {
+        "id": 22,
+        "enunciado": "Quem é o autor de 'Crítica da razão pura'?",
+        "opcaoUsuario": "Kant.",
+        "respostaCorreta": "Kant.",
+        "correto": true
+      },
+      {
+        "id": 24,
+        "enunciado": "Qual é a obra mais famosa de Aristóteles?",
+        "opcaoUsuario": "Ética a Nicômaco.",
+        "respostaCorreta": "Ética a Nicômaco.",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T01:32:59.967Z",
+    "userName": "Águida",
+    "correctAnswers": 7,
+    "totalQuestions": 10,
+    "timeTaken": 40,
+    "questionsAttempted": [
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": true
+      },
+      {
+        "id": 85,
+        "enunciado": "O que é 'teoria das ideias' de Platão?",
+        "opcaoUsuario": "As ideias são realidades perfeitas e imutáveis",
+        "respostaCorreta": "As ideias são realidades perfeitas e imutáveis",
+        "correto": true
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É uma forma de evitar qualquer tipo de decisão.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 128,
+        "enunciado": "O que é 'dialética' para Platão?",
+        "opcaoUsuario": "A prática de dialogar sobre temas triviais.",
+        "respostaCorreta": "O método de ascensão do mundo sensível ao mundo das ideias.",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A intuição",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 108,
+        "enunciado": "Explique a diferença entre 'doxa' e 'episteme' na filosofia grega.",
+        "opcaoUsuario": "Doxa é a opinião baseada nos sentidos, episteme é o conhecimento verdadeiro e racional.",
+        "respostaCorreta": "Doxa é a opinião baseada nos sentidos, episteme é o conhecimento verdadeiro e racional.",
+        "correto": true
+      },
+      {
+        "id": 116,
+        "enunciado": "Qual o nome da escola fundada por Platão?",
+        "opcaoUsuario": "Academia",
+        "respostaCorreta": "Academia",
+        "correto": true
+      },
+      {
+        "id": 106,
+        "enunciado": "Como Aristóteles diferencia 'substância' e 'acidente'?",
+        "opcaoUsuario": "Substância é a essência de algo, o que o torna o que é; acidente são características mutáveis e não essenciais.",
+        "respostaCorreta": "Substância é a essência de algo, o que o torna o que é; acidente são características mutáveis e não essenciais.",
+        "correto": true
+      },
+      {
+        "id": 93,
+        "enunciado": "Qual filósofo pré-socrático afirmava que 'tudo flui' (panta rei)?",
+        "opcaoUsuario": "Heráclito",
+        "respostaCorreta": "Heráclito",
+        "correto": true
+      },
+      {
+        "id": 119,
+        "enunciado": "Qual filósofo introduziu o conceito de 'Ideias' ou 'Formas'?",
+        "opcaoUsuario": "Platão",
+        "respostaCorreta": "Platão",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T11:44:37.430Z",
+    "userName": "idelzuite",
+    "correctAnswers": 10,
+    "totalQuestions": 10,
+    "timeTaken": 184,
+    "questionsAttempted": [
+      {
+        "id": 175,
+        "enunciado": "O que é a 'dialética' platônica e qual sua função na busca do conhecimento?",
+        "opcaoUsuario": "É o método que busca ascender do mundo sensível ao inteligível por meio da razão.",
+        "respostaCorreta": "É o método que busca ascender do mundo sensível ao inteligível por meio da razão.",
+        "correto": true
+      },
+      {
+        "id": 174,
+        "enunciado": "Em que consiste o 'conhece-te a ti mesmo' atribuído a Sócrates?",
+        "opcaoUsuario": "Na investigação racional de si próprio para alcançar a virtude.",
+        "respostaCorreta": "Na investigação racional de si próprio para alcançar a virtude.",
+        "correto": true
+      },
+      {
+        "id": 179,
+        "enunciado": "O que é a 'episteme' segundo Platão?",
+        "opcaoUsuario": "O conhecimento verdadeiro e racional, voltado às ideias eternas.",
+        "respostaCorreta": "O conhecimento verdadeiro e racional, voltado às ideias eternas.",
+        "correto": true
+      },
+      {
+        "id": 173,
+        "enunciado": "O que caracteriza a filosofia socrática em contraste com os sofistas?",
+        "opcaoUsuario": "Sócrates buscava a verdade por meio do diálogo e da maiêutica, enquanto os sofistas priorizavam a persuasão.",
+        "respostaCorreta": "Sócrates buscava a verdade por meio do diálogo e da maiêutica, enquanto os sofistas priorizavam a persuasão.",
+        "correto": true
+      },
+      {
+        "id": 177,
+        "enunciado": "Como o pensamento de Anaximandro contribui para a explicação racional da origem do universo?",
+        "opcaoUsuario": "Introduziu a noção do ápeiron como princípio indeterminado de todas as coisas.",
+        "respostaCorreta": "Introduziu a noção do ápeiron como princípio indeterminado de todas as coisas.",
+        "correto": true
+      },
+      {
+        "id": 176,
+        "enunciado": "Qual o papel da 'virtude' (areté) na ética grega antiga, especialmente em Aristóteles?",
+        "opcaoUsuario": "É o meio termo entre os extremos, alcançado pela prática racional.",
+        "respostaCorreta": "É o meio termo entre os extremos, alcançado pela prática racional.",
+        "correto": true
+      },
+      {
+        "id": 171,
+        "enunciado": "Qual o papel do 'espanto' na origem da filosofia, segundo os pensadores antigos como Platão e Aristóteles?",
+        "opcaoUsuario": "É considerado o ponto de partida do questionamento filosófico.",
+        "respostaCorreta": "É considerado o ponto de partida do questionamento filosófico.",
+        "correto": true
+      },
+      {
+        "id": 159,
+        "enunciado": "Discuta a concepção de 'justiça' em Platão, apresentada em 'A República', e sua relação com a estrutura da alma e da cidade. É possível aplicar essa concepção à sociedade contemporânea?",
+        "opcaoUsuario": "A justiça platônica é a harmonia entre as partes da alma (razão, coragem, apetite) e, por extensão, entre as classes da cidade (filósofos-reis, guardiões, produtores), onde cada um cumpre sua função. Sua aplicação hoje é complexa, dada a complexidade das sociedades modernas.",
+        "respostaCorreta": "A justiça platônica é a harmonia entre as partes da alma (razão, coragem, apetite) e, por extensão, entre as classes da cidade (filósofos-reis, guardiões, produtores), onde cada um cumpre sua função. Sua aplicação hoje é complexa, dada a complexidade das sociedades modernas.",
+        "correto": true
+      },
+      {
+        "id": 172,
+        "enunciado": "Na tradição filosófica ocidental, o que distingue o pensamento mítico do pensamento filosófico?",
+        "opcaoUsuario": "O pensamento filosófico busca explicações racionais e universais.",
+        "respostaCorreta": "O pensamento filosófico busca explicações racionais e universais.",
+        "correto": true
+      },
+      {
+        "id": 158,
+        "enunciado": "Analise criticamente a distinção platônica entre 'mundo sensível' e 'mundo inteligível' à luz dos desafios contemporâneos da inteligência artificial e da realidade virtual. Qual mundo seria mais 'real' e por quê?",
+        "opcaoUsuario": "A distinção platônica pode ser reavaliada: o mundo inteligível, como o reino das ideias e conceitos, pode ser equiparado aos algoritmos e estruturas que organizam a 'realidade' digital, levando a questionamentos sobre a 'realidade' do sensível digitalizado.",
+        "respostaCorreta": "A distinção platônica pode ser reavaliada: o mundo inteligível, como o reino das ideias e conceitos, pode ser equiparado aos algoritmos e estruturas que organizam a 'realidade' digital, levando a questionamentos sobre a 'realidade' do sensível digitalizado.",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T11:50:13.342Z",
+    "userName": "Débora",
+    "correctAnswers": 9,
+    "totalQuestions": 10,
+    "timeTaken": 194,
+    "questionsAttempted": [
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": true
+      },
+      {
+        "id": 126,
+        "enunciado": "O que os filósofos buscavam entender ao investigar a 'physis'?",
+        "opcaoUsuario": "A natureza humana",
+        "respostaCorreta": "A natureza do universo e seus princípios",
+        "correto": false
+      },
+      {
+        "id": 86,
+        "enunciado": "A frase 'o homem é a medida de todas as coisas' é de qual sofista?",
+        "opcaoUsuario": "Protágoras",
+        "respostaCorreta": "Protágoras",
+        "correto": true
+      },
+      {
+        "id": 112,
+        "enunciado": "Como a tragédia grega se relaciona com as questões filosóficas da época?",
+        "opcaoUsuario": "Ela explorava temas como destino, livre-arbítrio, justiça e moralidade, que eram centrais para a reflexão filosófica.",
+        "respostaCorreta": "Ela explorava temas como destino, livre-arbítrio, justiça e moralidade, que eram centrais para a reflexão filosófica.",
+        "correto": true
+      },
+      {
+        "id": 98,
+        "enunciado": "Para Sócrates, o verdadeiro conhecimento é:",
+        "opcaoUsuario": "A consciência da própria ignorância",
+        "respostaCorreta": "A consciência da própria ignorância",
+        "correto": true
+      },
+      {
+        "id": 102,
+        "enunciado": "Qual era a principal preocupação dos filósofos da natureza (pré-socráticos)?",
+        "opcaoUsuario": "A origem e estrutura do mundo",
+        "respostaCorreta": "A origem e estrutura do mundo",
+        "correto": true
+      },
+      {
+        "id": 127,
+        "enunciado": "Qual a principal diferença entre senso comum e conhecimento filosófico?",
+        "opcaoUsuario": "Senso comum é superficial e acrítico, conhecimento filosófico é reflexivo e crítico.",
+        "respostaCorreta": "Senso comum é superficial e acrítico, conhecimento filosófico é reflexivo e crítico.",
+        "correto": true
+      },
+      {
+        "id": 87,
+        "enunciado": "O que é 'ataraxia' na filosofia grega?",
+        "opcaoUsuario": "A serenidade da alma",
+        "respostaCorreta": "A serenidade da alma",
+        "correto": true
+      },
+      {
+        "id": 120,
+        "enunciado": "O que é 'retórica'?",
+        "opcaoUsuario": "A arte de argumentar e persuadir",
+        "respostaCorreta": "A arte de argumentar e persuadir",
+        "correto": true
+      },
+      {
+        "id": 90,
+        "enunciado": "Qual filósofo afirmou que o 'homem é um animal político'?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Aristóteles",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T11:57:19.517Z",
+    "userName": "adadmim",
+    "correctAnswers": 8,
+    "totalQuestions": 10,
+    "timeTaken": 251,
+    "questionsAttempted": [
+      {
+        "id": 67,
+        "enunciado": "Para Simone de Beauvoir, o que significa a frase 'Não se nasce mulher, torna-se mulher'?",
+        "opcaoUsuario": "A identidade feminina é construída social e culturalmente.",
+        "respostaCorreta": "A identidade feminina é construída social e culturalmente.",
+        "correto": true
+      },
+      {
+        "id": 63,
+        "enunciado": "Qual é a principal característica do método cartesiano proposto por René Descartes?",
+        "opcaoUsuario": "A dúvida metódica como ponto de partida.",
+        "respostaCorreta": "A dúvida metódica como ponto de partida.",
+        "correto": true
+      },
+      {
+        "id": 76,
+        "enunciado": "Segundo Hannah Arendt, o que é a 'banalidade do mal'?",
+        "opcaoUsuario": "A capacidade de pessoas comuns cometerem atos malignos sem consciência crítica.",
+        "respostaCorreta": "A capacidade de pessoas comuns cometerem atos malignos sem consciência crítica.",
+        "correto": true
+      },
+      {
+        "id": 69,
+        "enunciado": "Segundo Michel Foucault, o que caracteriza a sociedade disciplinar?",
+        "opcaoUsuario": "A centralização do poder em um monarca absoluto.",
+        "respostaCorreta": "A disseminação de mecanismos de vigilância e controle nos diversos setores sociais.",
+        "correto": false
+      },
+      {
+        "id": 70,
+        "enunciado": "Para Thomas Hobbes, qual é a condição natural do ser humano?",
+        "opcaoUsuario": "Um estado de guerra de todos contra todos.",
+        "respostaCorreta": "Um estado de guerra de todos contra todos.",
+        "correto": true
+      },
+      {
+        "id": 68,
+        "enunciado": "O que caracteriza o 'nihilismo' na filosofia de Nietzsche?",
+        "opcaoUsuario": "A negação de sentido e valor na vida.",
+        "respostaCorreta": "A negação de sentido e valor na vida.",
+        "correto": true
+      },
+      {
+        "id": 64,
+        "enunciado": "Para Friedrich Nietzsche, o que representa o 'eterno retorno'?",
+        "opcaoUsuario": "A repetição cíclica da história.",
+        "respostaCorreta": "A ideia de que a vida deve ser vivida como se fosse repetida infinitamente.",
+        "correto": false
+      },
+      {
+        "id": 62,
+        "enunciado": "Segundo Immanuel Kant, o que significa 'sair da menoridade'?",
+        "opcaoUsuario": "Usar a própria razão sem a orientação de outro.",
+        "respostaCorreta": "Usar a própria razão sem a orientação de outro.",
+        "correto": true
+      },
+      {
+        "id": 58,
+        "enunciado": "A metáfora da caverna escrita por Platão cumpre um sentido didático para ensinar que:",
+        "opcaoUsuario": "O verdadeiro conhecimento surge da libertação das correntes dos preconceitos e das opiniões.",
+        "respostaCorreta": "O verdadeiro conhecimento surge da libertação das correntes dos preconceitos e das opiniões.",
+        "correto": true
+      },
+      {
+        "id": 57,
+        "enunciado": "Heráclito propõe um caminho para o conhecimento oposto à concepção de Parmênides. Na metáfora citada, o filósofo aponta para uma realidade em constante transformação. O pensamento de Heráclito pode ser caracterizado como:",
+        "opcaoUsuario": "mobilista, definido pela eterna mudança e o constante devir.",
+        "respostaCorreta": "mobilista, definido pela eterna mudança e o constante devir.",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T12:03:09.440Z",
+    "userName": "Tiago Montenegro",
+    "correctAnswers": 4,
+    "totalQuestions": 10,
+    "timeTaken": 176,
+    "questionsAttempted": [
+      {
+        "id": 515,
+        "enunciado": "Um gráfico mostra que a população de uma cidade cresceu 20% em um ano. Se a população atual é de 240.000 habitantes, qual era a população no início do ano?",
+        "opcaoUsuario": "200.000",
+        "respostaCorreta": "200.000",
+        "correto": true
+      },
+      {
+        "id": 495,
+        "enunciado": "Em um triângulo ABC, os ângulos internos satisfazem 2∠A = ∠B = 3∠C. Qual o valor do menor ângulo do triângulo?",
+        "opcaoUsuario": "30°",
+        "respostaCorreta": "20°",
+        "correto": false
+      },
+      {
+        "id": 516,
+        "enunciado": "Um trabalhador recebe R$ 2.400,00 mensais. Ele gastou 35% do salário com moradia e 25% com alimentação. Quanto restou após esses gastos?",
+        "opcaoUsuario": "R$ 960,00",
+        "respostaCorreta": "R$ 960,00",
+        "correto": true
+      },
+      {
+        "id": 520,
+        "enunciado": "Uma escola aplicou uma prova em que 60% dos 500 alunos foram aprovados. Quantos foram reprovados?",
+        "opcaoUsuario": "300",
+        "respostaCorreta": "200",
+        "correto": false
+      },
+      {
+        "id": 496,
+        "enunciado": "Sejam os números reais x e y tais que:\nx + y = 5\ne x² + y² = 13. Qual é o valor de xy?",
+        "opcaoUsuario": "8",
+        "respostaCorreta": "6",
+        "correto": false
+      },
+      {
+        "id": 508,
+        "enunciado": "Se a soma de três números consecutivos é 48, quais são esses números?",
+        "opcaoUsuario": "15, 16, 17",
+        "respostaCorreta": "15, 16, 17",
+        "correto": true
+      },
+      {
+        "id": 498,
+        "enunciado": "Considere a função f(x) = (x² - 4) / (x - 2) para x ≠ 2. Calcule o limite de f(x) quando x se aproxima de 2.",
+        "opcaoUsuario": "Indeterminado",
+        "respostaCorreta": "4",
+        "correto": false
+      },
+      {
+        "id": 505,
+        "enunciado": "Se cos²(x) + sen²(x) = 1, qual o valor de cos(2x) em função de cos²(x)?",
+        "opcaoUsuario": "1 - 2cos²(x)",
+        "respostaCorreta": "2cos²(x) - 1",
+        "correto": false
+      },
+      {
+        "id": 499,
+        "enunciado": "Um tanque cúbico tem lado medindo 3 metros. Qual é a medida da diagonal do tanque?",
+        "opcaoUsuario": "3√2 metros",
+        "respostaCorreta": "3√3 metros",
+        "correto": false
+      },
+      {
+        "id": 510,
+        "enunciado": "Um quadrado tem área igual a 100. Qual é o perímetro desse quadrado?",
+        "opcaoUsuario": "40",
+        "respostaCorreta": "40",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T12:04:54.442Z",
+    "userName": "Tiago Montenegro",
+    "correctAnswers": 3,
+    "totalQuestions": 10,
+    "timeTaken": 52,
+    "questionsAttempted": [
+      {
+        "id": 509,
+        "enunciado": "Qual é o coeficiente angular da reta que passa pelos pontos (2,3) e (5,11)?",
+        "opcaoUsuario": "3/8",
+        "respostaCorreta": "8/3",
+        "correto": false
+      },
+      {
+        "id": 504,
+        "enunciado": "Em uma progressão geométrica, o primeiro termo é 5 e o quarto termo é 40. Qual é a razão da PG?",
+        "opcaoUsuario": "5",
+        "respostaCorreta": "2",
+        "correto": false
+      },
+      {
+        "id": 521,
+        "enunciado": "Em uma experiência científica, uma bactéria dobra sua quantidade a cada 3 horas. Se há 1.000 bactérias no início, quantas haverá após 12 horas?",
+        "opcaoUsuario": "12.000",
+        "respostaCorreta": "16.000",
+        "correto": false
+      },
+      {
+        "id": 508,
+        "enunciado": "Se a soma de três números consecutivos é 48, quais são esses números?",
+        "opcaoUsuario": "15, 16, 17",
+        "respostaCorreta": "15, 16, 17",
+        "correto": true
+      },
+      {
+        "id": 502,
+        "enunciado": "Uma função exponencial é dada por f(x) = a^x, com a > 0 e a ≠ 1. Se f(2) = 16 e f(4) = 256, qual é o valor de a?",
+        "opcaoUsuario": "2",
+        "respostaCorreta": "4",
+        "correto": false
+      },
+      {
+        "id": 497,
+        "enunciado": "Qual é o valor da soma dos primeiros 20 termos da progressão aritmética cujo primeiro termo é 3 e a razão é 5?",
+        "opcaoUsuario": "1130",
+        "respostaCorreta": "1030",
+        "correto": false
+      },
+      {
+        "id": 522,
+        "enunciado": "Um gráfico mostra que o consumo de água de uma residência caiu 20% após instalação de um redutor. Se antes o consumo era de 18.000 L/mês, qual o consumo após a instalação?",
+        "opcaoUsuario": "14.400 L",
+        "respostaCorreta": "14.400 L",
+        "correto": true
+      },
+      {
+        "id": 498,
+        "enunciado": "Considere a função f(x) = (x² - 4) / (x - 2) para x ≠ 2. Calcule o limite de f(x) quando x se aproxima de 2.",
+        "opcaoUsuario": "Indeterminado",
+        "respostaCorreta": "4",
+        "correto": false
+      },
+      {
+        "id": 510,
+        "enunciado": "Um quadrado tem área igual a 100. Qual é o perímetro desse quadrado?",
+        "opcaoUsuario": "50",
+        "respostaCorreta": "40",
+        "correto": false
+      },
+      {
+        "id": 514,
+        "enunciado": "Um tanque tem formato cúbico e capacidade para 8.000 litros. Qual é a medida de cada aresta desse cubo, em metros? (1.000 L = 1 m³)",
+        "opcaoUsuario": "2 m",
+        "respostaCorreta": "2 m",
+        "correto": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T12:06:53.106Z",
+    "userName": "poetinha",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 88,
+    "questionsAttempted": [
+      {
+        "id": 495,
+        "enunciado": "Em um triângulo ABC, os ângulos internos satisfazem 2∠A = ∠B = 3∠C. Qual o valor do menor ângulo do triângulo?",
+        "opcaoUsuario": "40°",
+        "respostaCorreta": "20°",
+        "correto": false
+      },
+      {
+        "id": 496,
+        "enunciado": "Sejam os números reais x e y tais que:\nx + y = 5\ne x² + y² = 13. Qual é o valor de xy?",
+        "opcaoUsuario": "7",
+        "respostaCorreta": "6",
+        "correto": false
+      },
+      {
+        "id": 520,
+        "enunciado": "Uma escola aplicou uma prova em que 60% dos 500 alunos foram aprovados. Quantos foram reprovados?",
+        "opcaoUsuario": "300",
+        "respostaCorreta": "200",
+        "correto": false
+      },
+      {
+        "id": 503,
+        "enunciado": "Qual é a soma dos ângulos internos de um polígono regular de 18 lados?",
+        "opcaoUsuario": "3060°",
+        "respostaCorreta": "2880°",
+        "correto": false
+      },
+      {
+        "id": 500,
+        "enunciado": "Sejam f(x) = 3x - 1 e g(x) = x² + 2. Qual o valor de (f ∘ g)(2)?",
+        "opcaoUsuario": "23",
+        "respostaCorreta": "17",
+        "correto": false
+      },
+      {
+        "id": 507,
+        "enunciado": "Sejam dois conjuntos A = {1, 2, 3, 4, 5} e B = {2, 4, 6, 8}. Qual é a interseção entre A e B?",
+        "opcaoUsuario": "{6, 8}",
+        "respostaCorreta": "{2, 4}",
+        "correto": false
+      },
+      {
+        "id": 518,
+        "enunciado": "Em uma plantação retangular de milho, a área é de 1.200 m². Sabendo que o comprimento é 30 m maior que a largura, quais são as dimensões do terreno?",
+        "opcaoUsuario": "25 m x 48 m",
+        "respostaCorreta": "30 m x 40 m",
+        "correto": false
+      },
+      {
+        "id": 505,
+        "enunciado": "Se cos²(x) + sen²(x) = 1, qual o valor de cos(2x) em função de cos²(x)?",
+        "opcaoUsuario": "2sen²(x) - 1",
+        "respostaCorreta": "2cos²(x) - 1",
+        "correto": false
+      },
+      {
+        "id": 501,
+        "enunciado": "Qual o valor do determinante da matriz 2x2 dada por:\n[[3, 5], [7, 2]]?",
+        "opcaoUsuario": "-26",
+        "respostaCorreta": "-29",
+        "correto": false
+      },
+      {
+        "id": 498,
+        "enunciado": "Considere a função f(x) = (x² - 4) / (x - 2) para x ≠ 2. Calcule o limite de f(x) quando x se aproxima de 2.",
+        "opcaoUsuario": "2",
+        "respostaCorreta": "4",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T12:08:57.446Z",
+    "userName": "JORGE GAMEPLAYS  >:D",
+    "correctAnswers": 1,
+    "totalQuestions": 10,
+    "timeTaken": 56,
+    "questionsAttempted": [
+      {
+        "id": 288,
+        "enunciado": "Em um experimento, uma bola é lançada verticalmente para cima com uma velocidade inicial de 20 m/s. Considerando a aceleração da gravidade como 10 m/s², calcule a altura máxima que a bola atinge até parar por instante.",
+        "opcaoUsuario": "40 m",
+        "respostaCorreta": "20 m",
+        "correto": false
+      },
+      {
+        "id": 313,
+        "enunciado": "O gráfico de uma função linear passa pelos pontos (2, 3) e (5, 15). Qual é o coeficiente angular (inclinação) dessa função?",
+        "opcaoUsuario": "3",
+        "respostaCorreta": "4",
+        "correto": false
+      },
+      {
+        "id": 289,
+        "enunciado": "Uma empresa quer aumentar a produção de 100 unidades por dia para 200 unidades por dia. Para isso, eles planejam trabalhar 5 horas a mais por dia, mantendo a mesma taxa de produção. Se atualmente a produção diária é de 100 unidades, qual deve ser a nova taxa de produção por hora para alcançar essa meta?",
+        "opcaoUsuario": "40 unidades/hora",
+        "respostaCorreta": "40 unidades/hora",
+        "correto": true
+      },
+      {
+        "id": 299,
+        "enunciado": "Um estudante resolveu uma equação do primeiro grau e obteve a seguinte expressão: 3x – 7 = 8. Qual é o valor de x que satisfaz essa equação?",
+        "opcaoUsuario": "6",
+        "respostaCorreta": "5",
+        "correto": false
+      },
+      {
+        "id": 292,
+        "enunciado": "Um grupo de amigos decidiu fazer um piquenique. Para 20 pessoas, eles compraram 4 kg de frutas. Se o grupo aumentar para 30 pessoas, quantos quilos de frutas serão necessários, mantendo a proporção anteriormente comprada?",
+        "opcaoUsuario": "4 kg",
+        "respostaCorreta": "6 kg",
+        "correto": false
+      },
+      {
+        "id": 311,
+        "enunciado": "No ENEM, uma caixa d'água tem formato cúbico e aresta de 1 metro. Qual o volume da caixa em litros? (1 m³ = 1000 litros)",
+        "opcaoUsuario": "1200 litros",
+        "respostaCorreta": "1000 litros",
+        "correto": false
+      },
+      {
+        "id": 293,
+        "enunciado": "Uma loja vende camisetas. O preço de uma camiseta é de R$ 40,00. Se um cliente compra 3 camisetas, ele obtém um desconto de 10% no total da compra. Qual é o valor total que o cliente pagará pelas camisetas após o desconto?",
+        "opcaoUsuario": "R$ 120,00",
+        "respostaCorreta": "R$ 108,00",
+        "correto": false
+      },
+      {
+        "id": 298,
+        "enunciado": "Uma piscina tem a forma de um paralelepípedo retângulo com dimensões de 10 m de comprimento, 5 m de largura e 2 m de profundidade. Qual é o volume total da piscina em metros cúbicos?",
+        "opcaoUsuario": "50 m³",
+        "respostaCorreta": "100 m³",
+        "correto": false
+      },
+      {
+        "id": 290,
+        "enunciado": "Numa escola, 40% dos alunos são meninas. Se o número total de alunos é 200, quantas meninas existem na escola?",
+        "opcaoUsuario": "140 meninas",
+        "respostaCorreta": "80 meninas",
+        "correto": false
+      },
+      {
+        "id": 303,
+        "enunciado": "Questão de vestibular: Um trem percorre 180 km em 3 horas e 30 minutos. Qual a velocidade média do trem em km/h?",
+        "opcaoUsuario": "60 km/h",
+        "respostaCorreta": "51,43 km/h",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-05T18:24:48.729Z",
+    "userName": "Kisley",
+    "correctAnswers": 3,
+    "totalQuestions": 10,
+    "timeTaken": 20,
+    "questionsAttempted": [
+      {
+        "id": 23,
+        "enunciado": "O que significa o termo 'dialética' em filosofia?",
+        "opcaoUsuario": "A rejeição de qualquer forma de conhecimento.",
+        "respostaCorreta": "O método de diálogo para alcançar a verdade.",
+        "correto": false
+      },
+      {
+        "id": 12,
+        "enunciado": "Para Kant, o que é um imperativo categórico?",
+        "opcaoUsuario": "Uma opinião pessoal.",
+        "respostaCorreta": "Uma lei moral universal e incondicional.",
+        "correto": false
+      },
+      {
+        "id": 10,
+        "enunciado": "Quem foi o principal representante do racionalismo moderno?",
+        "opcaoUsuario": "Descartes.",
+        "respostaCorreta": "Descartes.",
+        "correto": true
+      },
+      {
+        "id": 16,
+        "enunciado": "Quem escreveu 'O contrato social'?",
+        "opcaoUsuario": "Hobbes.",
+        "respostaCorreta": "Rousseau.",
+        "correto": false
+      },
+      {
+        "id": 18,
+        "enunciado": "O que significa 'a essência precede a existência'?",
+        "opcaoUsuario": "A existência e essência são a mesma coisa.",
+        "respostaCorreta": "A essência define o ser antes da existência.",
+        "correto": false
+      },
+      {
+        "id": 21,
+        "enunciado": "O que é o empirismo?",
+        "opcaoUsuario": "A crença de que o conhecimento vem da experiência.",
+        "respostaCorreta": "A crença de que o conhecimento vem da experiência.",
+        "correto": true
+      },
+      {
+        "id": 22,
+        "enunciado": "Quem é o autor de 'Crítica da razão pura'?",
+        "opcaoUsuario": "Hegel.",
+        "respostaCorreta": "Kant.",
+        "correto": false
+      },
+      {
+        "id": 5,
+        "enunciado": "Qual é o objetivo principal da ética na Filosofia?",
+        "opcaoUsuario": "Refletir sobre a conduta humana e o que é considerado certo ou errado.",
+        "respostaCorreta": "Refletir sobre a conduta humana e o que é considerado certo ou errado.",
+        "correto": true
+      },
+      {
+        "id": 11,
+        "enunciado": "Qual filósofo é conhecido por sua teoria do contrato social?",
+        "opcaoUsuario": "Epicuro.",
+        "respostaCorreta": "Hobbes.",
+        "correto": false
+      },
+      {
+        "id": 4,
+        "enunciado": "Qual filósofo é conhecido por andar pelas ruas ensinando e dialogando?",
+        "opcaoUsuario": "Hobbes.",
+        "respostaCorreta": "Sócrates.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-08T19:46:31.753Z",
+    "userName": "Angelica",
+    "correctAnswers": 8,
+    "totalQuestions": 10,
+    "timeTaken": 463,
+    "questionsAttempted": [
+      {
+        "id": 271,
+        "enunciado": "Qual é o valor de x na equação 4x - 9 = 15?",
+        "opcaoUsuario": "6",
+        "respostaCorreta": "6",
+        "correto": true
+      },
+      {
+        "id": 281,
+        "enunciado": "Se um triângulo tem dois lados medindo 7 cm e 10 cm, qual pode ser o intervalo possível para o terceiro lado?",
+        "opcaoUsuario": "Entre 7 cm e 20 cm",
+        "respostaCorreta": "Entre 3 cm e 17 cm",
+        "correto": false
+      },
+      {
+        "id": 262,
+        "enunciado": "Qual é a área de um quadrado que tem lado medindo 7 cm?",
+        "opcaoUsuario": "49 cm²",
+        "respostaCorreta": "49 cm²",
+        "correto": true
+      },
+      {
+        "id": 283,
+        "enunciado": "Qual é a média aritmética dos números 12, 15, 18 e 21?",
+        "opcaoUsuario": "16,5",
+        "respostaCorreta": "16,5",
+        "correto": true
+      },
+      {
+        "id": 279,
+        "enunciado": "Um vendedor ganha R$ 500,00 de salário fixo e 5% de comissão sobre o total vendido. Se ele vendeu R$ 4.000,00, quanto ele receberá no mês?",
+        "opcaoUsuario": "R$ 700,00",
+        "respostaCorreta": "R$ 700,00",
+        "correto": true
+      },
+      {
+        "id": 274,
+        "enunciado": "Resolva a equação: 2(x - 3) + 4 = 10.",
+        "opcaoUsuario": "6",
+        "respostaCorreta": "5",
+        "correto": false
+      },
+      {
+        "id": 264,
+        "enunciado": "Em uma turma, 60% dos alunos são meninas. Se há 24 meninas, qual o total de alunos na turma?",
+        "opcaoUsuario": "40",
+        "respostaCorreta": "40",
+        "correto": true
+      },
+      {
+        "id": 266,
+        "enunciado": "Se o dobro de um número somado a 7 é 19, qual é esse número?",
+        "opcaoUsuario": "6",
+        "respostaCorreta": "6",
+        "correto": true
+      },
+      {
+        "id": 277,
+        "enunciado": "Qual é a solução da equação 3x + 2 = 11?",
+        "opcaoUsuario": "3",
+        "respostaCorreta": "3",
+        "correto": true
+      },
+      {
+        "id": 260,
+        "enunciado": "Se 3x - 7 = 11, qual é o valor de x?",
+        "opcaoUsuario": "6",
+        "respostaCorreta": "6",
+        "correto": true
+      }
+    ]
+  }
+]
