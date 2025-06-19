@@ -867,5 +867,716 @@
         "correto": true
       }
     ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:06.146Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 21,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:07.329Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 22,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:07.688Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 22,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:07.825Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 22,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:08.720Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 23,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:08.888Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 23,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T22:54:09.032Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 24,
+    "questionsAttempted": [
+      {
+        "id": 83,
+        "enunciado": "Para Parmênides, o ser é:",
+        "opcaoUsuario": "Mutável e contraditório",
+        "respostaCorreta": "Imutável, eterno e uno",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 89,
+        "enunciado": "O que os filósofos chamavam de 'ser'?",
+        "opcaoUsuario": "Tudo aquilo que existe de forma temporária",
+        "respostaCorreta": "A realidade que é, existe e pode ser pensada",
+        "correto": false
+      },
+      {
+        "id": 104,
+        "enunciado": "No contexto da filosofia pré-socrática, quais são as principais diferenças entre os 'monistas' e os 'pluralistas'?",
+        "opcaoUsuario": "Monistas acreditavam em múltiplos princípios, pluralistas em um único princípio.",
+        "respostaCorreta": "Monistas buscavam um único princípio (arché), enquanto pluralistas admitiam múltiplos princípios na origem do cosmos.",
+        "correto": false
+      },
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 81,
+        "enunciado": "Quem foi o discípulo mais famoso de Sócrates?",
+        "opcaoUsuario": "Aristóteles",
+        "respostaCorreta": "Platão",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      },
+      {
+        "id": 121,
+        "enunciado": "Qual a principal diferença entre Platão e Aristóteles?",
+        "opcaoUsuario": "Platão focava no mundo sensível, Aristóteles no mundo das ideias.",
+        "respostaCorreta": "Platão focava no mundo das ideias, Aristóteles na observação empírica e classificação.",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T23:06:09.677Z",
+    "userName": "Débora",
+    "correctAnswers": 0,
+    "totalQuestions": 10,
+    "timeTaken": 14,
+    "questionsAttempted": [
+      {
+        "id": 110,
+        "enunciado": "Qual a importância do 'espanto' ou 'admiração' como ponto de partida para a filosofia?",
+        "opcaoUsuario": "É uma emoção negativa que deve ser evitada.",
+        "respostaCorreta": "É o sentimento de estranhamento diante do mundo que impulsiona a reflexão e o questionamento filosófico.",
+        "correto": false
+      },
+      {
+        "id": 82,
+        "enunciado": "O que significa o termo 'cosmos' para os filósofos antigos?",
+        "opcaoUsuario": "Desordem total",
+        "respostaCorreta": "A organização harmoniosa do universo",
+        "correto": false
+      },
+      {
+        "id": 95,
+        "enunciado": "O que os sofistas ensinavam?",
+        "opcaoUsuario": "A busca pela verdade absoluta",
+        "respostaCorreta": "A arte de argumentar e persuadir",
+        "correto": false
+      },
+      {
+        "id": 108,
+        "enunciado": "Explique a diferença entre 'doxa' e 'episteme' na filosofia grega.",
+        "opcaoUsuario": "Doxa é o conhecimento verdadeiro, episteme é a opinião.",
+        "respostaCorreta": "Doxa é a opinião baseada nos sentidos, episteme é o conhecimento verdadeiro e racional.",
+        "correto": false
+      },
+      {
+        "id": 85,
+        "enunciado": "O que é 'teoria das ideias' de Platão?",
+        "opcaoUsuario": "Ideias surgem da experiência sensível",
+        "respostaCorreta": "As ideias são realidades perfeitas e imutáveis",
+        "correto": false
+      },
+      {
+        "id": 99,
+        "enunciado": "O que era a Academia de Platão?",
+        "opcaoUsuario": "Uma escola voltada à arte da guerra",
+        "respostaCorreta": "Uma escola filosófica fundada por Platão",
+        "correto": false
+      },
+      {
+        "id": 93,
+        "enunciado": "Qual filósofo pré-socrático afirmava que 'tudo flui' (panta rei)?",
+        "opcaoUsuario": "Parmênides",
+        "respostaCorreta": "Heráclito",
+        "correto": false
+      },
+      {
+        "id": 117,
+        "enunciado": "Qual o principal tema da obra 'A República' de Platão?",
+        "opcaoUsuario": "A vida dos deuses",
+        "respostaCorreta": "A organização ideal da cidade-estado",
+        "correto": false
+      },
+      {
+        "id": 107,
+        "enunciado": "Qual a importância da 'ética das virtudes' em Aristóteles?",
+        "opcaoUsuario": "Defende que a ética é apenas uma questão de seguir regras.",
+        "respostaCorreta": "Propõe que a felicidade (eudaimonia) é alcançada através da prática de virtudes e do justo meio.",
+        "correto": false
+      },
+      {
+        "id": 118,
+        "enunciado": "O que é 'metafísica'?",
+        "opcaoUsuario": "O estudo do mundo físico",
+        "respostaCorreta": "O estudo do que está além do físico, da realidade fundamental",
+        "correto": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-19T23:06:31.623Z",
+    "userName": "Débora",
+    "correctAnswers": 4,
+    "totalQuestions": 10,
+    "timeTaken": 13,
+    "questionsAttempted": [
+      {
+        "id": 102,
+        "enunciado": "Compare o conceito de 'ser' em Parmênides e Heráclito. Quais são as principais divergências?",
+        "opcaoUsuario": "Parmênides defendia o movimento e Heráclito a imobilidade.",
+        "respostaCorreta": "Parmênides defendia a imobilidade e a unidade do ser, enquanto Heráclito defendia o constante fluxo e a mudança.",
+        "correto": false
+      },
+      {
+        "id": 124,
+        "enunciado": "O que é 'razão' para a filosofia?",
+        "opcaoUsuario": "A capacidade de sentir emoções",
+        "respostaCorreta": "A faculdade humana de pensar, julgar e compreender",
+        "correto": false
+      },
+      {
+        "id": 112,
+        "enunciado": "Como a tragédia grega se relaciona com as questões filosóficas da época?",
+        "opcaoUsuario": "Ela explorava temas como destino, livre-arbítrio, justiça e moralidade, que eram centrais para a reflexão filosófica.",
+        "respostaCorreta": "Ela explorava temas como destino, livre-arbítrio, justiça e moralidade, que eram centrais para a reflexão filosófica.",
+        "correto": true
+      },
+      {
+        "id": 100,
+        "enunciado": "Qual desses filósofos é considerado um dos primeiros a buscar a 'causa' (arché) do universo?",
+        "opcaoUsuario": "Tales de Mileto",
+        "respostaCorreta": "Tales de Mileto",
+        "correto": true
+      },
+      {
+        "id": 103,
+        "enunciado": "Explique a importância da 'maiêutica' socrática para a busca do conhecimento.",
+        "opcaoUsuario": "É um método para convencer os outros de suas ideias.",
+        "respostaCorreta": "É um método de questionamento que visa fazer o interlocutor 'parir' suas próprias ideias e conhecimentos.",
+        "correto": false
+      },
+      {
+        "id": 111,
+        "enunciado": "Distinga o 'mito da caverna' de Platão da ideia de 'ataraxia' (tranquilidade da alma) dos epicuristas.",
+        "opcaoUsuario": "Ambos promovem a vida social ativa.",
+        "respostaCorreta": "O mito da caverna aborda a busca pelo conhecimento verdadeiro, enquanto a ataraxia se refere à ausência de perturbação e dor.",
+        "correto": false
+      },
+      {
+        "id": 99,
+        "enunciado": "O que era a Academia de Platão?",
+        "opcaoUsuario": "Uma escola filosófica fundada por Platão",
+        "respostaCorreta": "Uma escola filosófica fundada por Platão",
+        "correto": true
+      },
+      {
+        "id": 91,
+        "enunciado": "Qual é a importância do diálogo na filosofia socrática?",
+        "opcaoUsuario": "Para ensinar sem esforço",
+        "respostaCorreta": "Para chegar à verdade por meio do questionamento",
+        "correto": false
+      },
+      {
+        "id": 113,
+        "enunciado": "Explique o conceito de 'justo meio' em Aristóteles para a ética.",
+        "opcaoUsuario": "É sempre a média aritmética entre dois extremos.",
+        "respostaCorreta": "É o ponto de equilíbrio entre dois vícios (excesso e deficiência) na busca pela virtude.",
+        "correto": false
+      },
+      {
+        "id": 94,
+        "enunciado": "O que significa a palavra 'filosofia'?",
+        "opcaoUsuario": "Amor pela sabedoria",
+        "respostaCorreta": "Amor pela sabedoria",
+        "correto": true
+      }
+    ]
   }
 ]
