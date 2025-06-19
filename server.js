@@ -2,15 +2,23 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const RESPOSTAS_PATH = path.join(__dirname, 'respostas.json');
+const QUESTOES_PATH = path.join(__dirname, 'questoes.json');
+
 app.use(cors());
 app.use(express.json());
-app.use(express.static(__dirname)); // Serve arquivos da raiz
+app.use(express.static(__dirname)); // Serve index.html, script.js, site.css etc.
 
-const RESPOSTAS_PATH = path.join(__dirname, 'respostas.json');
+// Rota para servir o arquivo questoes.json
+app.get('/questoes.json', (req, res) => {
+  res.sendFile(QUESTOES_PATH);
+});
 
+// Rota para salvar respostas
 app.post('/submit-answers', (req, res) => {
   const novaResposta = {
     timestamp: new Date().toISOString(),
@@ -35,6 +43,7 @@ app.post('/submit-answers', (req, res) => {
   }
 });
 
+// Rota para obter respostas por nome de usuário
 app.get('/respostas/:userName', (req, res) => {
   const userNameParam = req.params.userName.toLowerCase();
 
@@ -64,3 +73,4 @@ app.get('/respostas/:userName', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
+
