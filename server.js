@@ -3,16 +3,14 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public')); // caso seu frontend esteja em uma pasta chamada public
+app.use(express.static(__dirname)); // Serve arquivos da raiz
 
 const RESPOSTAS_PATH = path.join(__dirname, 'respostas.json');
 
-// Rota para salvar respostas (usada pelo botão de envio)
 app.post('/submit-answers', (req, res) => {
   const novaResposta = {
     timestamp: new Date().toISOString(),
@@ -37,7 +35,6 @@ app.post('/submit-answers', (req, res) => {
   }
 });
 
-// Rota para buscar apenas as respostas do usuário autenticado
 app.get('/respostas/:userName', (req, res) => {
   const userNameParam = req.params.userName.toLowerCase();
 
@@ -63,9 +60,6 @@ app.get('/respostas/:userName', (req, res) => {
     res.status(500).json({ error: 'Erro ao buscar respostas.' });
   }
 });
-
-// ⛔ ROTA BLOQUEADA: não deixe isto ativo
-// app.get('/get-answers', (req, res) => { ... });
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
